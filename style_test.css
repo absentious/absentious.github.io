@@ -541,6 +541,10 @@ img {
         font-size: 12px;
     }
 
+    a {
+        color: #F00;
+    }
+
     .tstyle_title {
         max-width: 40rem;
     }
