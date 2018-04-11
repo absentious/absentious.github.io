@@ -210,12 +210,30 @@ img {
     margin-right: auto;
 }
 
+.i_tscreen_m {
+    width: 18%;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    height: auto;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .i_scrollarrow {
     padding-top: 100px;
     width: 48px;
     padding-bottom: 100px;
     height: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.i_scrollarrow_m {
+    width: 48px;
+    height: auto;
+    display: none;
     margin-left: auto;
     margin-right: auto;
 }
@@ -305,7 +323,7 @@ img {
 }
 
 .p_scont {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5rem;
 }
 
@@ -345,7 +363,7 @@ img {
 }
 
 .scr_a .s_ctext {
-    color: #222;
+    color: #332222;
 }
 
 
@@ -373,6 +391,7 @@ img {
     .tcolor_light2 {
     }
 
+
     .s_process_holder {
         padding-top: 100px;
         margin-top: 100px;
@@ -395,10 +414,7 @@ img {
         display: none;
     }
 
-    .i_tscreen {
-        width: 25%;
-        padding-top: 100px;
-    }
+
 
     .i_flowcontainer {
         width: 50%;
@@ -487,10 +503,6 @@ img {
         font-size: 14px;
     }
 
-    a {
-        color: #F0F;
-    }
-
     img {
         max-width: 90%;
     }
@@ -519,10 +531,6 @@ img {
         font-size: 13px;
     }
 
-    a {
-        color: #FF0;
-    }
-
     .tstyle_title {
         max-width: 45rem;
     }
@@ -549,9 +557,7 @@ img {
         font-size: 12px;
     }
 
-    a {
-        color: #00F;
-    }
+
 
     .tstyle_title {
         max-width: 40rem;
@@ -579,8 +585,8 @@ img {
     .s_cnum {
         width: 100%;
         min-width: 100%;
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 0;
+        margin-right: 0;
         text-align: center;
     }
 
@@ -607,21 +613,136 @@ img {
         font-size: 12px;
     }
 
-}
-
-@media screen and (max-width: 360px) {
-    body, html {
-        font-size: 12px;
+    h1 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
     }
 
-}
-
-@media screen and (max-width: 320px) {
-    body, html {
-        font-size: 12px;
+    .allcontent {
+        padding-top: 50px;
     }
 
-    a {
-        color: #F00;
+    .i_tscreen {
+        width: 50%;
+        padding-top: 100px;
+    }
+
+    .tstyle_title {
+        max-width: 60rem;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0rem;
+        font-weight: lighter;
+    }
+
+    .tstyle_introtitle {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        padding-top: 3rem;
+    }
+
+    .tstyle_introp {
+        max-width: 60rem;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    .tstyle_ptitle {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 0;
+        font-weight: bold;
+    }
+
+    .i_tbanner {
+        max-width: 90%;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .i_tscreen {
+        width: 50%;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        display: none;
+    }
+
+    .i_tscreen_m {
+        width: 33%;
+        padding-top: .5rem;
+        padding-bottom: 2.5rem;
+        display: block;
+    }
+
+    .i_scrollarrow_m {
+        width: 48px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .p_itemholder {
+        max-width: 60rem;
+    }
+
+    .p_box {
+        transition: box-shadow .3s;
+        border-radius: 10px;
+        border: 0px solid rgba(0,0,0,0);
+        float: left;
+        margin: 0rem;
+    }
+
+    .p_snum {
+        margin-right: .5rem;
+    }
+
+    .p_snum_head {
+        font-size: 10rem;
+        line-height: 10rem;
+        margin-right: 0;
+    }
+
+    .p_scont {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    
+    .s_ctitle {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        color: #222;
+        font-weight: normal;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    ol {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    ul {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
     }
 }
