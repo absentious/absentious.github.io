@@ -487,6 +487,10 @@ img {
         font-size: 14px;
     }
 
+    a {
+        color: #F0F;
+    }
+
     img {
         max-width: 90%;
     }
@@ -515,6 +519,10 @@ img {
         font-size: 13px;
     }
 
+    a {
+        color: #FF0;
+    }
+
     .tstyle_title {
         max-width: 45rem;
     }
@@ -541,6 +549,9 @@ img {
         font-size: 12px;
     }
 
+    a {
+        color: #00F;
+    }
 
     .tstyle_title {
         max-width: 40rem;
