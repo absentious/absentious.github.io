@@ -541,9 +541,6 @@ img {
         font-size: 12px;
     }
 
-    a {
-        color: #F00;
-    }
 
     .tstyle_title {
         max-width: 40rem;
@@ -594,8 +591,22 @@ img {
     }
 }
 
+@media screen and (max-width: 480px) {
+    body, html {
+        font-size: 12px;
+    }
+
+    a {
+        color: #F00;
+    }
+}
+
 @media screen and (max-width: 360px) {
     body, html {
         font-size: 12px;
+    }
+
+    a {
+        color: #0F0;
     }
 }
