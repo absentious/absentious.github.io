@@ -607,9 +607,6 @@ img {
         font-size: 12px;
     }
 
-    a {
-        color: #F00;
-    }
 }
 
 @media screen and (max-width: 360px) {
@@ -617,7 +614,14 @@ img {
         font-size: 12px;
     }
 
+}
+
+@media screen and (max-width: 320px) {
+    body, html {
+        font-size: 12px;
+    }
+
     a {
-        color: #0F0;
+        color: #F00;
     }
 }
