@@ -11,7 +11,7 @@
 
 body, html {
     color: #222;
-    font-family: 'Overpass Mono',Space Mono,'Courier New', Courier, monospace;
+    font-family: 'Nanum Gothic Coding','Overpass Mono',Space Mono,'Courier New', Courier, monospace;
     font-weight: regular;
     font-size: 18px;
     font-weight: 100;
@@ -732,6 +732,8 @@ img {
         line-height: 4rem;
         color: #222;
         font-weight: normal;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     p {
