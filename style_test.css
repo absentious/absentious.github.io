@@ -11,7 +11,7 @@
 
 body, html {
     color: #222;
-    font-family: 'Overpass Mono',Space Mono,'Courier New', Courier, monospace;
+    font-family: 'Barlow','Overpass Mono',Space Mono,'Courier New', Courier, monospace;
     font-weight: regular;
     font-size: 18px;
     font-weight: 100;
@@ -25,15 +25,15 @@ body, html {
 
 h1 {
     font-weight: bold;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
     padding-bottom: 1.5rem;
 }
 
 p {
     font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.6rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
     padding-bottom: 1.5rem;
     display: block;
     margin-left: auto;
@@ -45,8 +45,8 @@ li {
     padding-bottom: 1.5rem;
     margin-left: 2rem;
     font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 ul {
@@ -88,8 +88,8 @@ a:hover {
 
 .tstyle_title {
     max-width: 60rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
     padding-top: 1rem;
     padding-bottom: 0;
     text-align: center;
@@ -107,8 +107,8 @@ a:hover {
 .tstyle_introp {
     color: #fafafa;
     max-width: 60rem;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
@@ -328,11 +328,10 @@ img {
 
 .p_stitle {
     text-align: center;
-    height: 4.5rem;
 }
 
 .p_scont {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5rem;
 }
 
@@ -724,36 +723,36 @@ img {
     }
 
     .p_scont {
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
     }
     
     .s_ctitle {
         font-size: 2.5rem;
         line-height: 4rem;
         color: #222;
-        font-weight: normal;
+        font-weight: bold;
         padding-left: 2rem;
         padding-right: 2rem;
     }
 
     p {
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
     }
 
     li {
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
     }
 
     ol {
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 2.5rem;
     }
 
     ul {
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 2.5rem;
     }
 }
