@@ -185,6 +185,7 @@ a:hover {
 .t_resbk {
     background-color: #FFBE1A;
     color: #fafafa;
+    font-weight: bold;
 }
 
 img {
@@ -309,7 +310,14 @@ img {
 }
 
 .p_snum {
+    text-align: center;
+    font-size: 8rem;
+    line-height: 8rem;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
 
+.p_snum_head {
     text-align: center;
     font-size: 8rem;
     line-height: 8rem;
