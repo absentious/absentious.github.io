@@ -141,6 +141,7 @@ a:hover {
 
 .tcolor_light {
     color: rgba(255,255,255,.54);
+    font-weight: lighter;
 }
 
 .scr_a .tcolor_white2 {
