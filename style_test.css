@@ -355,6 +355,11 @@ img {
     text-align: center;
 }
 
+.s_cnum_holder {
+    position: sticky;
+    top: 50px;
+}
+
 .s_case_num_navs {
     display: flex;
     flex-direction: column;
@@ -372,6 +377,15 @@ img {
     margin-right: 1rem;
     margin-left: 2rem;
     text-align: center;
+}
+
+.s_reflection {
+    border-radius: 8px;
+    background-color: rgba(0,0,0,.33);
+    color: #fafafa;
+    float: left;
+    margin: 0rem;
+    padding: 1.5rem;
 }
 
 .changeColorB {
@@ -759,7 +773,6 @@ img {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-
 
 
     p {
