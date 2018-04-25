@@ -179,6 +179,7 @@ a:hover {
     padding-top: 3rem;
     padding-bottom: 0;
     text-align: left;
+    margin-left: 0;
 }
 
 .tstyle_introp {
@@ -292,6 +293,12 @@ sub {
 
 .t_pi {
     padding-top: 5rem;
+}
+
+.t_name {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 500;
 }
 
 .t_hmw {
@@ -446,31 +453,41 @@ img {
     margin: 1rem;
 }
 
+.p_gen_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.p_box_gen_holder {
+    width: 30%;
+    transition: padding-top .3s;
+    margin-right: 2rem;
+    padding-top: 1rem;
+}
+
+.p_box_gen_holder:hover {
+    padding-top: 0rem;
+}
+
 .p_box_gen {
     display: flex;
     flex-direction: row;
     transition: margin-left .3s;
-    margin-bottom: 3rem;
-    height: 25%;
+    margin-bottom: 1rem;
     padding-left: 0;
-    width: 100%;
+    height: 25%;
 }
 
 .p_box_gen:hover {
-    margin-left: 3rem;
+    
 }
 
 .p_box_gen_imgholder {
     background-color: #222;
     flex-grow: 1;
     flex-basis: 200px;
-}
-
-.p_box_gen_content {
-    margin-left: 3rem;
-    flex-grow: 2;
-    flex-basis: 400px;
-    padding: 3rem;
 }
 
 .t_h1_gen_content {
@@ -691,7 +708,7 @@ img {
 
 .s_cnum_holder {
     position: sticky;
-    top: 90%;
+    top: 100px;
 }
 
 .s_case_num_navs {
@@ -704,9 +721,13 @@ img {
 }
 
 .s_cbody {
-    padding-bottom: 10rem;
     display: flex;
     flex-direction: row;
+}
+
+.s_body_break {
+    width: 100%;
+    height: 10rem;
 }
 
 .s_cimg {
@@ -1516,6 +1537,7 @@ img {
         padding-bottom: 5rem;
     }
 
+
     .tstyle_ptitle {
         font-size: 2.5rem;
         line-height: 4rem;
@@ -1524,6 +1546,11 @@ img {
         padding-top: 1rem;
         padding-bottom: 0;
         font-weight: bold;
+    }
+
+    .t_pagetitle-prof {
+        font-size: 1rem;
+        line-height: 2rem;
     }
 
     .i_tbanner {
@@ -1578,6 +1605,11 @@ img {
         border: 0px solid rgba(0,0,0,0);
         float: left;
         margin: 0rem;
+    }
+
+    .p_box_gen_holder {
+        width: 48%;
+        margin: 0;
     }
 
     .p_box_proj {
