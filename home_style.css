@@ -1605,6 +1605,10 @@ img {
         display: none;
     }
 
+    .mhide {
+        display: none;
+    }
+
     .p_snum {
         margin-right: .5rem;
     }
@@ -1620,6 +1624,12 @@ img {
         line-height: 2.5rem;
     }
     
+    .t_name {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        font-weight: 500;
+    }
+
     .s_ctitle {
         font-size: 2.5rem;
         line-height: 4rem;
