@@ -225,6 +225,14 @@ sub {
     top: 0.4em; 
 }
 
+.d_w {
+
+}
+
+.d_m {
+    display: none;
+}
+
 .t_toppad {
     padding-top: 1rem;
 }
@@ -1549,8 +1557,10 @@ img {
     }
 
     .t_pagetitle-prof {
-        font-size: 1rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        padding-top: 0;
+        margin-left: 0;
     }
 
     .i_tbanner {
@@ -1610,6 +1620,7 @@ img {
     .p_box_gen_holder {
         width: 48%;
         margin: 0;
+        margin-bottom: 1rem;
     }
 
     .p_box_proj {
@@ -1617,8 +1628,10 @@ img {
     }
 
     .p_box_gen {
-        height: 10%;
+        height: 15%;
+        margin-top: .5rem;
         margin-bottom: 1rem;
+        flex-direction: column;
     }
 
     .p_box_gen_img {
@@ -1690,5 +1703,13 @@ img {
     ul {
         padding-top: 1.5rem;
         padding-bottom: 2.5rem;
+    }
+
+    .d_w {
+        display: none;
+    }
+    
+    .d_m {
+        display: block;
     }
 }
