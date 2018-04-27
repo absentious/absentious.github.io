@@ -1321,6 +1321,11 @@ img {
         text-align: center;
     }
 
+    .t_persona {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
     .tpic {
         margin-left: auto;
         margin-right: auto;
@@ -1367,6 +1372,21 @@ img {
     
     .i_appendix_m {
         display: block;
+    }
+
+    .i_feature {
+        width: 90%;
+    }
+
+    .p_persona_container {
+        flex-direction: column;
+    }
+
+    .p_persona_img {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: .5rem;
+        width: 70%;
     }
 
     .p_itemholder {
