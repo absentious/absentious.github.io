@@ -1046,7 +1046,6 @@ img {
         padding-top: 100px;
         margin-top: 100px;
         padding-bottom: 100px;
-        background-color: #222;
     }
 
     .s_case_holder {
@@ -1288,6 +1287,10 @@ img {
         font-weight: lighter;
     }
 
+    .t_nopad_m {
+        padding-bottom: 0 !important;
+    }
+
     .tstyle_introtitle {
         font-size: 2.5rem;
         line-height: 4rem;
@@ -1312,10 +1315,22 @@ img {
         font-weight: bold;
     }
 
+    .t_pagetitle {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .tpic {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .i_tbanner {
         max-width: 90%;
-        padding-top: 0rem;
-        padding-bottom: 0rem;
+        width: 90%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
     .i_tscreen {
@@ -1380,6 +1395,27 @@ img {
         font-size: 1.5rem;
         line-height: 2.5rem;
     }
+
+    .picgrid_holder {
+        display: none;
+    }
+
+    .p_desc_holder {
+        width: 100%;
+        padding: 0;
+    }
+
+    .p_all {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .s_titleholder {
+        flex-direction: column;
+    }
     
     .s_ctitle {
         font-size: 2.5rem;
@@ -1388,6 +1424,28 @@ img {
         font-weight: bold;
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+    .s_tpicholder {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
+        width: 75%;
+        max-width: 75%;
+    }
+
+    .s_ttext {
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+
+    .s_case_num_navs {
+        align-items: center;
     }
 
 
