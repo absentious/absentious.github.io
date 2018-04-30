@@ -324,6 +324,14 @@ sub {
     font-weight: bold;
 }
 
+.t_hprod {
+
+}
+
+.t_heng {
+
+}
+
 img {
     max-width: 80%;
     border-radius: 5px;
@@ -485,7 +493,6 @@ img {
     transition: margin-left .3s;
     margin-bottom: 1rem;
     padding-left: 0;
-    height: 25%;
 }
 
 .p_box_gen:hover {
@@ -496,6 +503,13 @@ img {
     background-color: #222;
     flex-grow: 1;
     flex-basis: 200px;
+}
+
+
+.p_box_gen_imgholder:before{
+	content: "";
+	display: block;
+	padding-top: 56%; 	/* initial ratio of 1:1*/
 }
 
 .t_h1_gen_content {
@@ -597,20 +611,79 @@ img {
     background-size: cover;
 }
 
+.dsn {
+    background: #1d2839;
+}
+
 .com {
     background-image: url("images/compose/banner.jpg");
     background-position: center center;
     background-size: cover;
 }
 
+.hor {
+    background-image: url("images/horizon.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
 .cnv {
-    background-image: url("images/cnav/map4.gif");
+    background-image: url("images/cnav/map5.gif");
+    background-position: center center;
+    background-size: cover;
+}
+.cn4 {
+    background-image: url("images/cnav/map4.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.cn3 {
+    background-image: url("images/cnav/map3.gif");
+    background-position: center center;
+    background-size: cover;
+}
+.cn2 {
+    background-image: url("images/cnav/map2.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.cn1 {
+    background-image: url("images/cnav/map1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.lem {
+    background-image: url("images/lemnos/lemnos.jpg");
     background-position: center center;
     background-size: cover;
 }
 
 .s33 {
-    background-image: url("images/cnav/map4.gif");
+    background-image: url("images/s33.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.t15 {
+    background-image: url("images/cnav/2015_retrothumb.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.tvi {
+    background-image: url("images/travelvid.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.nih {
+    background-image: url("images/nih.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.bmv {
+    background-image: url("images/bmv.jpg");
     background-position: center center;
     background-size: cover;
 }
