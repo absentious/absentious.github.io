@@ -258,6 +258,7 @@ sub {
 
 .tstyle_strike {
     text-decoration: line-through;
+    color: rgba(0,0,0,.3);
 }
 
 .scr_a .tcolor_white2 {
