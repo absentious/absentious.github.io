@@ -89,6 +89,20 @@ a:hover {
     color: rgba(0,0,0,.3);
 }
 
+.t_title_m {
+    font-size: 1.2rem;
+    width: 10rem;
+    text-decoration: none;
+    color: #222;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.t_nav:hover {
+    text-decoration: none;
+}
+
 .t_nav_name {
     font-size: 1.5rem;
     font-weight: bold;
@@ -192,6 +206,11 @@ a:hover {
     color: #fafafa;
     font-size: 2.5rem;
 }
+.t_desc {
+    color: rgba(0,0,0,.3);
+    font-family: 'barlow';
+    font-size: 1.2rem;
+}
 .t_blk {
     color: #222;
 }
@@ -225,8 +244,51 @@ a:hover {
 
 
 
-
-
+.ctn {
+    background-image: url("images/photo/ctn/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.nam {
+    background-image: url("images/photo/nam/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.hum {
+    background-image: url("images/photo/hum/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.lon {
+    background-image: url("images/photo/lon/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.pat {
+    background-image: url("images/photo/pat/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.isf {
+    background-image: url("images/photo/isf/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.blu {
+    background-image: url("images/photo/blu/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.hkg {
+    background-image: url("images/photo/hkg/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.mde {
+    background-image: url("images/photo/mde/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+}
 
 .bkk {
     background-image: url("images/photo/bkk/cover.jpg");
@@ -1449,8 +1511,12 @@ img {
         line-height: 2.2rem;
     }
 
+    img {
+        max-width: 100%;
+    }
+
     .allcontent {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     .i_tscreen {
@@ -1496,6 +1562,8 @@ img {
         padding-left: 2rem;
         padding-right: 2rem;
         text-align: center;
+        font-size: 32px;
+        line-height: 1.3em;
     }
 
     .i_tbanner {
@@ -1578,6 +1646,62 @@ img {
         font-weight: bold;
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+    .s_titleholder {
+        margin-top: 10vh;
+        margin-bottom: 15vh;
+    }
+
+    .s_galleryflow {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .s_galleryimg {
+        padding-bottom: 4rem;
+    }
+
+    .s_flowrow {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    .s_flowrow:before {
+        display: none;
+    }
+
+
+
+    .s_flowitem_container {
+        width: 100%;
+        position: static;
+    }
+
+    .flowitem {
+        position: static;
+    }
+
+    .flowbg {
+        display: none;
+    }
+
+    .e_middle {
+        display: none;
+    }
+
+    .nav_item {
+        width: 30%;
+    }
+
+    .t_nav_name {
+        letter-spacing: 2px;
+    }
+
+    .t_title_m {
+        margin-bottom: 2rem;
     }
 
 
